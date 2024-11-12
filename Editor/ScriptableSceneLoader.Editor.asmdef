@@ -1,0 +1,4 @@
+﻿{
+  "name": "ScriptableSceneLoader.Editor",
+  "references":[ "GUID:00e4f522c27b43a59115ea5230616e2a" ]
+}
