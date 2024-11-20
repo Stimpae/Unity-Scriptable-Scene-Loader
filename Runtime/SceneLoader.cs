@@ -9,6 +9,7 @@ namespace ScriptableSceneLoader {
         [FormerlySerializedAs("bootScenePath")]
         [SerializeField] private string bootSceneName;
         
+        
         private SceneGroupLoader m_sceneGroupLoader;
         private bool m_isLoading;
         

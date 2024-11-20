@@ -4,7 +4,7 @@ using System.IO;
 using UnityEngine;
 
 namespace ScriptableSceneLoader {
-    [CreateAssetMenu(fileName = "SceneGroup_Data", menuName = "Data/Scenes/Scene Group", order = 0)]
+    [CreateAssetMenu(fileName = "SceneGroup_Data", menuName = "Scene Loader/Scenes/Scene Group", order = 0)]
     public class SceneGroup : ScriptableObject {
         public TransitionProfile inTransition;
         public TransitionProfile outTransition;
