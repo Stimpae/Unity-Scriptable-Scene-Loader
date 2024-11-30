@@ -14,13 +14,13 @@ namespace ScriptableSceneLoader {
           m_bootSceneName = bootSceneName;
         }
 
-        public async Task LoadScenes(SceneGroup group, IProgress<float> progress, bool reloadDuplicateScenes = false) {
+        public async Task LoadScenes(SceneGroup group, IProgress<float> progress, bool shouldHandleUnload = true,bool reloadDuplicateScenes = false) {
             m_activeSceneGroup = group;
             var loadedScenes = Enumerable.Range(0, SceneManager.sceneCount)
                 .Select(i => SceneManager.GetSceneAt(i).name)
                 .ToList();
             
-            await UnloadScenes();
+            if(shouldHandleUnload) await UnloadScenes();
             var operationGroup = new AsyncOperationGroup(m_activeSceneGroup.scenes.Count);
 
             foreach (var sceneData in m_activeSceneGroup.scenes) {
