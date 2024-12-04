@@ -19,7 +19,7 @@ namespace ScriptableSceneLoader {
 
         public SceneGroup CurrentSceneGroup { get; private set; }
         public SceneGroup PreviousSceneGroup { get; private set; }
-        public event Action OnSceneGroupLoaded;
+        public event Action<SceneGroup> OnSceneGroupLoaded;
         
         protected override void Awake() {
             base.Awake();
@@ -54,7 +54,7 @@ namespace ScriptableSceneLoader {
         
                 // show in transition
         
-                OnSceneGroupLoaded?.Invoke();
+                OnSceneGroupLoaded?.Invoke(sceneGroup);
                 m_isLoading = false;
             }
             else {
