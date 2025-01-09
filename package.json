@@ -1,13 +1,11 @@
 {
-  "name": "com.stimpae.scriptable-scene-loader",
-  "version": "1.1.0",
-  "displayName": "Unity Scriptable Scene Loader",
+  "name": "com.thundertale.scene-loader",
+  "version": "1.0.0",
+  "displayName": "Unity Scene Loader",
   "description": "",
-  "unity": "2022.1",
+  "unity": "2023.3.15f",
   "author": {
-    "name": "Stimpae",
-    "email": "",
-    "url": "samstamp.co.uk"
+    "name": "Thundertale"
   }
 }
 

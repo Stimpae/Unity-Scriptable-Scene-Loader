@@ -1,0 +1,18 @@
+{
+    "name": "Pastime.SceneLoader.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:00e4f522c27b43a59115ea5230616e2a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

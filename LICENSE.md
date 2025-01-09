@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2024 Stimpae
+Copyright (c) 2024 Thundertale Games
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
